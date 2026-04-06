@@ -1,0 +1,33 @@
+Dataset: Wine Quality (Red Wine)
+Source:  UCI Machine Learning Repository
+URL:     https://archive.ics.uci.edu/ml/datasets/wine+quality
+File:    https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+
+Description:
+  The dataset contains physicochemical properties of red Vinho Verde wine samples
+  from northern Portugal, alongside sensory quality scores (3–8) assigned by wine experts.
+
+  For this assignment the task is binarised:
+    label 0 → low quality  (quality < 6)
+    label 1 → high quality (quality >= 6)
+
+Samples:  1,599
+Features: 11 (all numerical)
+  1.  fixed acidity
+  2.  volatile acidity
+  3.  citric acid
+  4.  residual sugar
+  5.  chlorides
+  6.  free sulfur dioxide
+  7.  total sulfur dioxide
+  8.  density
+  9.  pH
+  10. sulphates
+  11. alcohol
+
+Classes:  2 (binary, approx. 46% low / 54% high after binarisation)
+
+Citation:
+  P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+  "Modeling wine preferences by data mining from physicochemical properties."
+  Decision Support Systems, 47(4):547-553, 2009.
